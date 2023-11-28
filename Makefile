@@ -1,4 +1,4 @@
-DOCKER_REGISTRY=docker.io
+DOCKER_REGISTRY=ankitkumarhub
 DOKCER_REPO=jenkins-agent
 DOKCER_TAG=
 
