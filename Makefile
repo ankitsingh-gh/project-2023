@@ -1,5 +1,5 @@
-DOCKER_REGISTRY=ankitkumarhub
-DOKCER_REPO=jenkins-agent
+DOCKER_REGISTRY=docker.io
+DOKCER_REPO=ankitkumarhub/jenkins-slave
 DOKCER_TAG=
 
 BUILD_ROOT=./build-system
