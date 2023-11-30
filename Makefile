@@ -24,7 +24,7 @@ agent2:
 
 #[Docker] publish slave docker image to registry
 docker-login:
-	docker login $(DOCKER_REGISTRY) -u $(USER) -p $(PASSWD) > /dev/null 2>&1
+	docker login $(DOCKER_REGISTRY) -u $(USERNAME) -p $(PASSWD) > /dev/null 2>&1
 
 deploy: docker-login
 ifdef DOCKER_DEPLOY_TAG
